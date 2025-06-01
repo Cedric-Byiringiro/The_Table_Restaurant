@@ -1,0 +1,146 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #faf7f2;
+    color: #222;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+/* Header styling */
+.heading {
+    background: linear-gradient(90deg, #f8b500 0%, #fceabb 100%);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    padding: 0.5rem 0;
+}
+
+.heading nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+#logo {
+    height: 55px;
+    transition: transform 0.2s;
+}
+
+#logo:hover {
+    transform: scale(1.05);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 1.1em;
+    padding: 0.3em 0.7em;
+    border-radius: 4px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.nav-links li a:hover {
+    background: #fffbe6;
+    color: #f8b500;
+}
+
+/* Special of the Day */
+.SOTD {
+    background: #fffbe6;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(248,181,0,0.07);
+    max-width: 600px;
+    margin: 2rem auto 1.5rem auto;
+    padding: 2rem;
+    text-align: center;
+    box-align: left
+}
+
+.SOTD h4 {
+    color: #f8b500;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+}
+
+.SOTD img {
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.SOTD p {
+    margin-bottom: 0.5rem;
+    font-size: 1.05rem;
+}
+
+/* Services Section */
+.services {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    max-width: 600px;
+    margin: 1.5rem auto 2rem auto;
+    padding: 2rem;
+    box-align: right;
+}
+
+.services p {
+    margin-bottom: 0.5rem;
+    font-size: 1.05rem;
+}
+
+.services ul {
+    margin-top: 0.5rem;
+    margin-left: 1.2rem;
+}
+
+.services li {
+    margin-bottom: 0.4rem;
+    font-size: 1.05rem;
+}
+
+/* Footer */
+.footer {
+    background: #f8b500;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    letter-spacing: 1px;
+    font-weight: 500;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+@media (max-width: 700px) {
+    .heading nav {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 0 1rem;
+    }
+    .SOTD, .services {
+        max-width: 95vw;
+        padding: 1rem;
+    }
+    .nav-links {
+        gap: 1rem;
+    }
+}
