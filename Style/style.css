@@ -68,7 +68,7 @@ body {
     margin: 2rem auto 1.5rem auto;
     padding: 2rem;
     text-align: center;
-    box-align: left
+    margin-left: auto;
 }
 
 .SOTD h4 {
@@ -97,7 +97,7 @@ body {
     max-width: 600px;
     margin: 1.5rem auto 2rem auto;
     padding: 2rem;
-    box-align: right;
+   
 }
 
 .services p {
