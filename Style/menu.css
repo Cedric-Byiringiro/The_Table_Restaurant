@@ -1,0 +1,63 @@
+/* Men-box styling */
+.menu-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0;
+    padding: 1%;
+}
+
+/* Appetizer and desserts section*/
+.appetizers, .dessert {
+    background: #fffbe6;
+    border-radius: 12px;
+    max-width: auto;
+    margin: 2rem auto 1.5rem auto;
+    padding: 2rem;
+    text-align: center;
+    margin-left: auto;
+}
+
+.appetizers h3, .dessert h3 {
+    color: #f8b500;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+}
+
+.appetizers img, .dessert img {
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.appetizers p, .dessert p {
+    margin-bottom: 0.5rem;
+    font-size: 1.05rem;
+}
+
+/* Main courses and Beverages section */
+.main-course, .beverages {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    max-width: auto;
+    margin: 1.5rem auto 2rem auto;
+    padding: 2rem;
+   
+}
+.main-course h3, .beverages h3 {
+    color: #f8b500;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+}
+
+.main-course img, .beverages img {
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.main-course p, .beverages p {
+    margin-bottom: 0.5rem;
+    font-size: 1.05rem;
+}

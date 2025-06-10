@@ -9,14 +9,12 @@ body {
     font-family: 'Segoe UI', Arial, sans-serif;
     background: #faf7f2;
     color: #222;
-    line-height: 1.6;
-    min-height: 100vh;
+  
 }
 
 /* Header styling */
 .heading {
     background: linear-gradient(90deg, #f8b500 0%, #fceabb 100%);
-    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
     padding: 0.5rem 0;
 }
 
@@ -57,6 +55,12 @@ body {
 .nav-links li a:hover {
     background: #fffbe6;
     color: #f8b500;
+}
+
+/* Body-box styling */
+.body-box {
+    display: flex;
+    flex-direction: row;
 }
 
 /* Special of the Day */
