@@ -22,11 +22,9 @@
 .appetizers, .dessert {
     background: #fffbe6;
     border-radius: 50px;
-    max-width: auto;
     margin: 2rem auto 1.5rem auto;
     padding: 2rem;
     text-align: center;
-    margin-left: auto;
 }
 
 .appetizers h3, .dessert h3, .main-course h3, .beverages h3 {
@@ -44,8 +42,6 @@
 .main-course, .beverages {
     background: #fff;
     border-radius: 50px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-    max-width: auto;
     text-align: center;
     margin: 1.5rem auto 2rem auto;
     padding: 2rem;

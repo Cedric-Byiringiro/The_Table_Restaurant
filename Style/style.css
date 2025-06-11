@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Segoe UI', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background: #faf7f2;
     color: #222; 
 }
@@ -25,7 +25,6 @@ body {
 
 #logo {
     height: 55px;
-    transition: transform 0.2s;
 }
 
 #logo:hover {
@@ -42,7 +41,6 @@ body {
     color: #333;
     padding: 0.5cm 0.8cm;
     border-radius: 2cm;
-    transition: background 0.2s, color 0.2s;
 }
 
 .nav-links li a:hover {
@@ -113,4 +111,11 @@ body {
     font-weight: 500;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+/* Styling for form elements */
+.SOTD form {
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
 }
