@@ -1,16 +1,27 @@
-/* Men-box styling */
+/* Styling the header title of the menu page */
+.menu h1 {
+    color: #fff;
+    background-color: #f8b500;
+    text-align: center;
+    border-radius: 60%;  
+}
+/* Menu section styling the paragraphs which introduce Menu items */
+.menu #intro {
+    font-size: medium;
+    text-align: center;
+}
+/* Menu-box styling */
 .menu-box {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    margin: 0;
     padding: 1%;
 }
 
 /* Appetizer and desserts section*/
 .appetizers, .dessert {
     background: #fffbe6;
-    border-radius: 12px;
+    border-radius: 50px;
     max-width: auto;
     margin: 2rem auto 1.5rem auto;
     padding: 2rem;
@@ -18,46 +29,29 @@
     margin-left: auto;
 }
 
-.appetizers h3, .dessert h3 {
+.appetizers h3, .dessert h3, .main-course h3, .beverages h3 {
     color: #f8b500;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    letter-spacing: 1px;
+    margin-bottom: 2%;
+    font-size: x-large;
 }
 
 .appetizers img, .dessert img {
-    border-radius: 10px;
-    margin-bottom: 1rem;
-}
-
-.appetizers p, .dessert p {
-    margin-bottom: 0.5rem;
-    font-size: 1.05rem;
+    border-radius: 1000px;
+    margin-bottom: 2%;
 }
 
 /* Main courses and Beverages section */
 .main-course, .beverages {
     background: #fff;
-    border-radius: 12px;
+    border-radius: 50px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.04);
     max-width: auto;
+    text-align: center;
     margin: 1.5rem auto 2rem auto;
     padding: 2rem;
-   
-}
-.main-course h3, .beverages h3 {
-    color: #f8b500;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    letter-spacing: 1px;
 }
 
 .main-course img, .beverages img {
     border-radius: 10px;
-    margin-bottom: 1rem;
-}
-
-.main-course p, .beverages p {
-    margin-bottom: 0.5rem;
-    font-size: 1.05rem;
+    margin-bottom: 2%;
 }
